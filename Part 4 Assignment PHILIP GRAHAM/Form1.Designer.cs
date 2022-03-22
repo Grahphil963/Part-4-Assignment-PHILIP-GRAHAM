@@ -41,82 +41,85 @@
             // lblInstructions
             // 
             this.lblInstructions.AutoSize = true;
-            this.lblInstructions.Font = new System.Drawing.Font("Microsoft Sans Serif", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lblInstructions.Font = new System.Drawing.Font("Sylfaen", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.lblInstructions.Location = new System.Drawing.Point(2, 24);
             this.lblInstructions.Name = "lblInstructions";
-            this.lblInstructions.Size = new System.Drawing.Size(338, 24);
+            this.lblInstructions.Size = new System.Drawing.Size(332, 25);
             this.lblInstructions.TabIndex = 0;
-            this.lblInstructions.Text = "Please enter a minimum and maximum";
+            this.lblInstructions.Text = "Please enter a Minimum and Maximum";
             // 
             // lblMin
             // 
             this.lblMin.AutoSize = true;
-            this.lblMin.Font = new System.Drawing.Font("Microsoft Sans Serif", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lblMin.Font = new System.Drawing.Font("Sylfaen", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.lblMin.Location = new System.Drawing.Point(13, 83);
             this.lblMin.Name = "lblMin";
-            this.lblMin.Size = new System.Drawing.Size(88, 24);
+            this.lblMin.Size = new System.Drawing.Size(95, 25);
             this.lblMin.TabIndex = 1;
             this.lblMin.Text = "Minimum";
             // 
             // lblMax
             // 
             this.lblMax.AutoSize = true;
-            this.lblMax.Font = new System.Drawing.Font("Microsoft Sans Serif", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lblMax.Font = new System.Drawing.Font("Sylfaen", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.lblMax.Location = new System.Drawing.Point(13, 128);
             this.lblMax.Name = "lblMax";
-            this.lblMax.Size = new System.Drawing.Size(93, 24);
+            this.lblMax.Size = new System.Drawing.Size(95, 25);
             this.lblMax.TabIndex = 2;
             this.lblMax.Text = "Maximum";
             // 
             // txtMin
             // 
-            this.txtMin.Location = new System.Drawing.Point(107, 83);
+            this.txtMin.Location = new System.Drawing.Point(114, 83);
             this.txtMin.Name = "txtMin";
             this.txtMin.Size = new System.Drawing.Size(100, 20);
             this.txtMin.TabIndex = 3;
             // 
             // txtMax
             // 
-            this.txtMax.Location = new System.Drawing.Point(107, 134);
+            this.txtMax.Location = new System.Drawing.Point(114, 133);
             this.txtMax.Name = "txtMax";
             this.txtMax.Size = new System.Drawing.Size(100, 20);
             this.txtMax.TabIndex = 4;
             // 
             // btnInt
             // 
-            this.btnInt.Location = new System.Drawing.Point(12, 172);
+            this.btnInt.BackColor = System.Drawing.Color.DodgerBlue;
+            this.btnInt.Font = new System.Drawing.Font("Sylfaen", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnInt.Location = new System.Drawing.Point(12, 171);
             this.btnInt.Name = "btnInt";
-            this.btnInt.Size = new System.Drawing.Size(75, 23);
+            this.btnInt.Size = new System.Drawing.Size(136, 60);
             this.btnInt.TabIndex = 5;
             this.btnInt.Text = "Get Integer";
-            this.btnInt.UseVisualStyleBackColor = true;
+            this.btnInt.UseVisualStyleBackColor = false;
             this.btnInt.Click += new System.EventHandler(this.btnInt_Click);
             // 
             // btnDbl
             // 
-            this.btnDbl.Location = new System.Drawing.Point(107, 172);
+            this.btnDbl.BackColor = System.Drawing.Color.DodgerBlue;
+            this.btnDbl.Font = new System.Drawing.Font("Sylfaen", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnDbl.Location = new System.Drawing.Point(154, 171);
             this.btnDbl.Name = "btnDbl";
-            this.btnDbl.Size = new System.Drawing.Size(75, 23);
+            this.btnDbl.Size = new System.Drawing.Size(136, 60);
             this.btnDbl.TabIndex = 6;
             this.btnDbl.Text = "Get Double";
-            this.btnDbl.UseVisualStyleBackColor = true;
+            this.btnDbl.UseVisualStyleBackColor = false;
             this.btnDbl.Click += new System.EventHandler(this.btnDbl_Click);
             // 
             // lblOutput
             // 
             this.lblOutput.AutoSize = true;
             this.lblOutput.Font = new System.Drawing.Font("Microsoft Sans Serif", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lblOutput.Location = new System.Drawing.Point(80, 221);
+            this.lblOutput.Location = new System.Drawing.Point(84, 258);
             this.lblOutput.Name = "lblOutput";
-            this.lblOutput.Size = new System.Drawing.Size(60, 24);
+            this.lblOutput.Size = new System.Drawing.Size(0, 24);
             this.lblOutput.TabIndex = 7;
-            this.lblOutput.Text = "label1";
             // 
             // RandomNumbers
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(597, 356);
+            this.ClientSize = new System.Drawing.Size(336, 301);
             this.Controls.Add(this.lblOutput);
             this.Controls.Add(this.btnDbl);
             this.Controls.Add(this.btnInt);
